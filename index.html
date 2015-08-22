@@ -5,8 +5,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
 <script>
 
-var width = 960,
-    height = 600;
+var width = 640,
+    height = 480;
 
 var radius = height / 2 - 5,
     scale = radius,
@@ -47,6 +47,7 @@ d3.json("world-110m.json", function(error, world) {
   });
 });
 
-d3.select(self.frameElement).style("height", height + "px");
+//d3.select(this.frameElement).style("height", height + "px");
+//console.log(this.frameElement)
 
 </script>
